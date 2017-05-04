@@ -21,10 +21,21 @@
 h1{
     font-family:"Baloo";
     text-align:center;
+    color:black
+}
+.container{
+    background-image:url('img/giphy.gif');
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+#nav{
+    padding:0px,0px,100px,0px;
+    margin:0px;
 }
 </style>
 <body>
-       <nav class="navbar navbar-inverse">
+       <nav class="navbar navbar-inverse" id="nav">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -47,9 +58,9 @@ h1{
             </div>
         </div>
     </nav>
- <div class="container" id="home">
+ <div class='container' id="home">
         <h1>Pet Care</h1>
-    </div>
+</div>
     <div class="container" id="info">
     <h1>A small guide to help you take care of your cute pet.</h1>
 </div>
@@ -62,6 +73,8 @@ h1{
 <div class="container" id="Hamsters">
     <h1>Happiness</h1>
 </div>
+
+
 </body>
 
 </html>
