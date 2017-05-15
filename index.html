@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<head>  
-     <meta charset="UTF-8">
-    
+<head>
+    <meta charset="UTF-8">
+
     <title>Bootstrap Template</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,16 +13,17 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     <!--custom-->
+    <!--custom-->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Arvo|Questrial|Shadows+Into+Light" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 </head>
 
 <body>
 
-    
-       <nav class="navbar navbar-inverse" id="nav">
+
+    <nav class="navbar navbar-inverse" id="nav">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -30,7 +31,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-           <a class="navbar-brand" href="#">Pet Care</a>
+                <a class="navbar-brand" href="#">Pet Care</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -39,58 +40,154 @@
                     <li><a href="#info">Info</a></li>
                     <li><a href="#cats">Cats</a></li>
                     <li><a href="#hamsters">Hamsters</a></li>
+                    <li><a href="#genji">Genji</a></li>
                 </ul>
             </div>
         </div>
     </nav>
- <div class='container' id="home">
-     <div class="col-sm-12">
-        <h1>Pet Care</h1>
- </div>
-</div>
+    <div class='container' id="home">
+        <div class="col-sm-12">
+            <h1><b>Pet Care</b></h1>
+        </div>
+    </div>
     <div class="container" id="info">
         <div class="col-sm-12">
-    <h1>The purpose of this guide is to help you take better care of your cute pet!</h1> 
- </div>
-</div>    
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6 col-md-3" id="img">
-          <img src="img/playfulcat.png" class="img responsive">
-    
+            <h1><b>The purpose of this guide is to help you take better care of your cute pet!</b></h1>
+        </div>
     </div>
-  <div class="col-sm-6 col-md-3" id="img">
-          <img src="img/sleepingcat.jpg" class="img responsive">
+
+
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" id="img">
+                    <img src="img/2cute.jpg" style="width:100%">
+                </div>
+
+                <div class="item" id="img">
+                    <img src="img/derpcat.jpg" style="width:100%">
+                </div>
+
+                <div class="item" id="img">
+                    <img src="img/eatingcat.jpg" style="width:100%">
+                </div>
+
+                <div class="item" id="img">
+                    <img src="img/hamster1.jpg" style="width:100%">
+                </div>
+
+                <div class="item" id="img">
+                    <img src="img/hamster2.jpg" style="width:100%">
+                </div>
+
+                <div class="item" id="img">
+                    <img src="img/hamster3.jpg" style="width:100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
-   <div class="col-sm-6 col-md-3" id="img">
-          <img src="img/hamsters.jpg" class="img responsive">
-    <!--       <div class="col-md-4">-->
-    <!-- <h1>love cats</h1>-->
-    <!--</div>-->
- </div>
-    <div class="col-sm-6 col-md-3" id="img">
-          <img src="img/hamster2.jpg" class="img responsive">
-    </div>
-  </div>
-</div>
-<div class="container" id="cats">
-    <div class="col-sm-12">
-    <h1>How to properly take care of your precious cat!</h1>
-    <h2>Supplies:</h2>
-    <h3>Cat Food</h3>
-    <h3>Toys/Scratch Post</h3>
-    <h3>Litter Box</h3>
-    <h3>Cat Carrier</h3>
-</div>
-<div class="container" id="hamsters">
-    <div class="col-sm-12">
-    <h1>How to properly take care of your hamster!</h1>
-    <h2>Supplies:</h2>
-    <h3>Hamster Food</h3>
-    <h3>Cage/Bedding</h3>
-    <h3>Wheel</h3>
-    
-</div>
+
+
+    <div class="container" id="cats">
+        <div class="col-sm-12">
+            <h1><b>How to properly take care of your precious cat!</b></h1>
+            <h2><b>Basic supplies:<br>
+     * Premium-brand cat food<br>
+     * Food/Water bowl<br>
+     * Interactive toys<br>
+     * Brush or Comb<br> 
+     * Safety cat collar with ID tag<br>
+     * Scratching post or scratching pad<br>
+     * Litter box and litter<br>
+     * Cat carrier<br>
+     * Cat bed or box with warm blanket or towel<br>
+    </b></h2>
+            <li>
+                <h3><b>Food: Make sure to feed your cat a nutritious diet and fresh water, wash and refill bowls everyday. You can also ask your veterinarian for advice on what your cat can eat.</b></h3>
+            </li>
+            <li>
+                <h3><b>Housing: Your cat should have their own dry, clean place in your home to rest. Be sure to wash the bedding often. IMPORTANT: DO NOT KEEP YOUR CAT OUTSIDE FOR A LONG PERIOD OF TIME. They can go missing or killed. Be careful!</b></h3>
+            </li>
+            <li>
+                <h3><b>Identification: If the cat is allowed outside,they must wear a satey collar or ID tag </b>
+                    <h3>
+            </li>
+            <li>
+                <h3><b>Toys: Cats don't usually spend their time outdoors like dogs but they're still active animals. Take the time to play with your cat. Also, make sure to cut your cats nails every two to three weeks, make sure to buy a scratch post/pad, cats like to scratch!</b></h3>
+            </li>
+            <li>
+                <h3><b>Litter Box: Every cat needs a litter box, which should be placed in an accessible area. Make sure to clean the litter box every week!</b></h3>
+            </li>
+            <li>
+                <h3><b>Grooming: Most cats rarely need a bath but make sure to brush them everyday. It can keep their coat clean and reduce the amount of shedding!</b></h3>
+            </li>
+            <li>
+                <h3><b>Health: Your cat should see a verterinarian at least once a year for an examination and annual shots, if they are sick they must be checked immediately!</b></h3>
+            </li>
+        </div>
+        <div class="container" id="hamsters">
+            <div class="col-sm-12">
+                <h1><b>How to properly take care of your hamster!</b></h1>
+                <h2><b>Basic Supplies:<br>
+     *Cage/Bedding<br>
+     *Toys<br>
+     *Hamster Food<br>
+     *Food/Water bowl<br>
+     *Finger Brush<br>
+      </b></h2>
+                <li>
+                    <h3><b>Food:Make sure to feed your hamster daily, their diets can include vegetables and fruits which can be served every other day Be sure to refill their water and food daily!</h3></li>
+   <li><h3><b>Cage/Bedding:Make sure they have a dry and clean home, hamsters like to chew, make sure to also add bedding in the cage!</b></h3>
+                </li>
+                <li>
+                    <h3><b>Exercise:Be sure to provide an exercise wheel or ball, also when they're in the ball amke sure to supervise them!</b></h3>
+                </li>
+                <li>
+                    <h3><b>Grooming:Hamsters are naturally clean, you will often see them grooming themselves. However it is not a good idea to wash a hamster at all, it can be dangerous, but you can brush them!</b></h3>
+                </li>
+                <li>
+                    <h3><b>Health: Be sure to take your hamster to a vet annually, if they have display any odd symptoms, take them immediately.</b></h3>
+                </li>
+            </div>
+
+            <br>
+            <br>
+
+            <div id="genji">
+                <h1>Rest in peace my little genji. I love you</h1>
+                <div class="col-sm-4" id="mine">
+                    <img src="img/genji2.jpg" style="width:100%">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/genji.gif" style="width:100%">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/genji3.jpg" style="width:100%">
+                </div>
+            </div>
+
 
 </body>
 

@@ -3,12 +3,17 @@ h1{
     text-align:center;
     color:black
 }
+h2,h3{
+  color:black;
+  font-family:"Shadows Into Light";
+}
 .container{
     background-image:url('img/giphy.gif');
     background-attachment: fixed;
     height:100%;
     width:100%;
 }
+
 #nav{
     margin:0px;
 }
@@ -16,11 +21,6 @@ h1{
 #cats,#hamsters{
     text-align: center;
 }
-/* #img{*/
-/*  width:400px;*/
-/*  height:300px;*/
-/*}*/
-
 /*small*/
 
  @media(min-width:768px) {
@@ -33,9 +33,7 @@ h1{
   h3{
       font-size:30px;
   }
-/*#img{*/
-/*  float:center;*/
-/*}*/
+
 }
 
 
@@ -51,7 +49,6 @@ h1{
   h3{
       font-size:50px;
   }
-
 }
 
 
@@ -59,14 +56,15 @@ h1{
 
 @media(min-width:1200px) {
   h1 {
-    font-size:90px;
+    font-size:95px;
   }
   h2 {
-    font-size: 80px;
+    font-size: 90px;
   }
   h3{
-      font-size:70px;
+      font-size:85px;
   }
+
 }
 
 
